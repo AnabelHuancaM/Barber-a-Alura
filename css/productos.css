@@ -1,3 +1,7 @@
+::selection{
+    background: #adbeff;
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -65,26 +69,38 @@ nav ul li a{
     color: #fff;
     padding: 12px 30px;
     text-decoration: none;
+    font-size: 22px;
 }
 
 nav ul li a:hover{
-    color: #4a66ce;
+    color: #c3d0ff;
     text-decoration: none;
+    border-bottom: 3px solid #c3d0ff;
 }
 
-/*hipervinculos estilos del menu*/
-nav a{ 
-    text-transform: uppercase; /*poner en mayusc*/
-    color: #000; 
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none; /*quitar subrayado por defecto*/
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden; /*oculte lo que sobresalga*/
+    margin: auto;
+    padding: 60px 0;
 }
 
-nav a:hover{ /*captura movimiento del mouse*/
-    color: #fed141;  /*y cambia de color */
-    text-decoration: underline; /*subrayado*/
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
 }
+
+.titulo{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
 
 .productos{
     width: 940px; /*ancho de los elementos*/
