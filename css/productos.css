@@ -9,6 +9,12 @@ h2, h3{
     text-align: center;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
 strong{
     color: #001f8d;
 }
