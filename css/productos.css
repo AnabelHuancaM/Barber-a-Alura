@@ -1,17 +1,33 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2, h3{
+    color: #001f8d;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+strong{
+    color: #001f8d;
 }
 
 header{
-    background-color: #ecd0d0;
+    background-color: #BBBBBB;
     padding: 20px 0; /*espaciamiento hacia abajo*/
 }
 
 .caja{
-    width: 940px; /*ocupe esa cantidad de pixeles*/
+    width: 540px; /*ocupe esa cantidad de pixeles*/
     position: relative; /**/
     margin: 0 auto;  /*ocupe 940px, automatico a los bordes*/
 }
+
+.icon{
+    width: 10%;
+}
+
 
 nav{
     position: absolute; 
@@ -57,12 +73,12 @@ nav a:hover{ /*captura movimiento del mouse*/
 }
 
 .productos li:hover{
-    border-color: #fed141; /*cambia color del borde*/
+    border-color: #001973; /*cambia color del borde*/
 
 }
 
 .productos li:active{
-    border-color: #9c7800; /*cambia color del borde al presionar mouse*/
+    border-color: #001973; /*cambia color del borde al presionar mouse*/
 }
 
 .productos h2{ /*titulos de los prod */
@@ -73,7 +89,7 @@ nav a:hover{ /*captura movimiento del mouse*/
 
 .productos li:hover h2{ /*aplica al h2 de prod, aument tamaño*/
     font-size: 33px;
-    color: #fed141;
+    color: #001973;
 }
 
 .prod-descrip{
@@ -88,8 +104,7 @@ nav a:hover{ /*captura movimiento del mouse*/
 
 footer{
     text-align: center;
-    
-    background: url(../img/bg.jpg); /*fondo del footer*/
+    background: #0e1d34;
     padding: 40px; /*espaciado hacia abajo del texto*/
 }
 
@@ -160,17 +175,29 @@ td, th{
 }
 
 .principal{
-    padding: 3em 0;
-    background: #FEFEFE; 
-    width: 940px;
-    margin: 0 auto;
+    padding: 80px 0;
+    width: 80%;
+    margin: 40px auto;
 }
 
-.title-principal{
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left; /*cualquier config despues del titulo */
+.cont-utens{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 50px;
+    margin: 30px auto;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.171);
+}
+
+.cont-utens p{
+    line-height: 2;
+    padding: 50px;
+}
+
+.img-ut{
+    width: 50%;
 }
 
 p::first-line{ /*primera linea del parrafo:italico*/
@@ -195,28 +222,30 @@ p::first-line{ /*primera linea del parrafo:italico*/
 }
 
 .mapa{
-    padding: 3em 0;
-    background:linear-gradient(#FEFEFE, #888888);
+    padding: 80px;
+    background: #fff;
+    margin: 40px auto;
 }
 
 .mapa p{
-    margin: 0 0 2em;
+    margin: 35px auto;
     text-align: center;
 }
 
 .mapa-contenido{
-    width: 940px;
+    width: 80%;
     margin: 0 auto;
 }
 
 .diferenciales{
     padding: 3em 0;
-    background: #888888;
+    background: #fff;
 }
 
 .contenido-difern{
-    width: 640px;
-    margin: 0 auto;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
 }
 
 .lista-difer{
@@ -226,7 +255,7 @@ p::first-line{ /*primera linea del parrafo:italico*/
 }
 
 .items{
-    line-height: 1.5; /*tamaño hacia arriba*/
+    line-height: 2.5; /*tamaño hacia arriba*/
 }
 
 .items::before{
@@ -238,14 +267,14 @@ p::first-line{ /*primera linea del parrafo:italico*/
 }
 
 .imgDif{
-    width: 60%;
+    width: 35%;
     transition: 400ms; /*transicion 400 milisegundos*/
-    box-shadow: 10px 10px 30px 15px #000;  /*derecha, arriba, difuminado, expansion del difum, color*/
+    box-shadow: 10px 10px 30px 15px rgb(100, 97, 97);  /*derecha, arriba, difuminado, expansion del difum, color*/
     margin-bottom: 20px;
 }
 
 .imgDif:hover{
-    opacity: 0.3; /*opacidad*/
+    opacity: 0.2; /*opacidad*/
 }
 
 .video{

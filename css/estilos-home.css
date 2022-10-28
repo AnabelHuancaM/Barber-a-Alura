@@ -1,5 +1,5 @@
 .title-principal{
-    padding-left: 30px;
+    background: #fff;
 }
 
 #banner{
@@ -52,8 +52,6 @@ ul{
 
 footer{
     text-align: center;
-    
-    background: url(../img/bg.jpg); /*fondo del footer*/
     padding: 40px; /*espaciado hacia abajo del texto*/
 }
 
