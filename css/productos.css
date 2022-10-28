@@ -139,8 +139,14 @@ footer{
     margin: 20px; /*marge hacia abajo*/
 }
 
-form{
-    margin: 40px 0; /*marge para arriba y abajo*/
+/*formulario-------------------------------------*/
+.form{
+    background: #f5f6fa; 
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    line-height: 1.5;
+    color: #0e1d34;
 }
 
 form label, form legend{
@@ -153,7 +159,8 @@ form label, form legend{
     display: block; /*ocupe solo lo requerido*/
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 40%;
+    border: 1px solid #0e1d34;
 }
 
 .checkbox{
@@ -161,12 +168,12 @@ form label, form legend{
 }
 
 .enviar{
-    width: 40%;
-    padding: 15px 0;
+    width: 20%;
+    padding: 20px;
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background: #fed141;
+    background: #0e1d34;
     border: none;
     border-radius: 5px;
     transition: 1s all; /*transicion de un segundo para el boton en general*/
@@ -174,7 +181,7 @@ form label, form legend{
 }
 
 .enviar:hover{ /*movim del mouse*/
-    background-color: orange;
+    background-color: #001f8d;
     transform: scale(1.2); /*al movim del mouse agranda el boton*/
 }
 
@@ -183,14 +190,13 @@ table{
 }
 
 thead{
-    background: #555555;
+    background: #0e1d34;
     color: #FFF;
-    font-weight: bold;
 }
 
 td, th{
-    border: 1px solid #000;
-    padding: 8px 15px;
+    border: 1px solid #07133d;
+    padding: 15px;
 }
 
 /*Incio de CSS para home---------------------*/
