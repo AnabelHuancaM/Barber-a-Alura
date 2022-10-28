@@ -15,30 +15,55 @@ strong{
 
 header{
     background-color: #BBBBBB;
-    padding: 20px 0; /*espaciamiento hacia abajo*/
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    background-blend-mode: multiply;
 }
 
-.caja{
-    width: 540px; /*ocupe esa cantidad de pixeles*/
-    position: relative; /**/
-    margin: 0 auto;  /*ocupe 940px, automatico a los bordes*/
-}
 
 .icon{
     width: 10%;
 }
 
-
 nav{
-    position: absolute; 
-    top: 110px; /*posicionamiento hacia arriba*/
-    right: 0;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: #0e1d34a1;
+    border-bottom: 1px solid #444;
 }
 
-nav li{ /*estilos dela lista del menu nav*/
-    display: inline; /*ocupe lo necesario*/
-    margin: 0 0 0 15px; /*espaciamiento: arriba, derecha, abajo, izqu*/
+nav .logo{
+    width: 2.5%;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #4a66ce;
+    text-decoration: none;
 }
 
 /*hipervinculos estilos del menu*/
@@ -223,7 +248,7 @@ p::first-line{ /*primera linea del parrafo:italico*/
 
 .mapa{
     padding: 80px;
-    background: #fff;
+    background: #fcfcfc;
     margin: 40px auto;
 }
 
